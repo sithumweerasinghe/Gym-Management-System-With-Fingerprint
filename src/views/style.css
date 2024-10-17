@@ -1,0 +1,46 @@
+.table-view {
+    -fx-background-color: #ffffff; /* white background */
+    -fx-border-color: #cccccc; /* light gray border */
+}
+
+.button {
+    -fx-background-color: #007bff; /* primary button color */
+    -fx-text-fill: white; /* white text */
+}
+
+.button:hover {
+    -fx-background-color: #0056b3; /* darker blue on hover */
+}
+
+.text-field {
+    -fx-border-color: #cccccc; /* light gray border */
+}
+
+.text-area {
+    -fx-border-color: #cccccc; /* light gray border */
+}
+/* Add this CSS to your stylesheet */
+.grid-pane {
+    -fx-background-color: #f9f9f9; /* Light background color */
+}
+
+.text-field {
+    -fx-padding: 8; /* Padding inside text fields */
+    -fx-font-size: 14px; /* Font size */
+    -fx-border-radius: 5; /* Rounded corners */
+    -fx-background-color: #ffffff; /* White background */
+    -fx-border-color: #dddddd; /* Light border color */
+}
+
+.button {
+    -fx-background-color: #9838fc; /* Button background color */
+    -fx-text-fill: white; /* Button text color */
+    -fx-padding: 10 20; /* Button padding */
+    -fx-font-size: 14px; /* Button font size */
+    -fx-background-radius: 5; /* Rounded corners */
+}
+
+.button:hover {
+    -fx-background-color: #7a2fca; /* Darker shade on hover */
+}
+

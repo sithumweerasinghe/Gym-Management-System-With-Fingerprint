@@ -1,0 +1,75 @@
+/* General Styling */
+.root {
+    -fx-font-family: "Arial";
+    -fx-font-size: 14px;
+    -fx-background-color: #f4f4f4;
+}
+
+/* TableView Styling */
+.table-view {
+    -fx-border-color: #cccccc;
+    -fx-border-width: 1px;
+    -fx-background-color: #ffffff;
+}
+
+.table-view .table-header {
+    -fx-background-color: #4CAF50;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+}
+
+.table-view .table-row {
+    -fx-background-color: white;
+}
+
+.table-view .table-row:hover {
+    -fx-background-color: #e8f5e9; /* Light green on hover */
+}
+
+.table-view .table-row:selected {
+    -fx-background-color: #a5d6a7; /* Darker green on selection */
+}
+
+/* TextField Styling */
+.text-field {
+    -fx-background-color: #ffffff;
+    -fx-border-color: #cccccc;
+    -fx-border-radius: 5px;
+    -fx-padding: 8px;
+}
+
+.text-field:focused {
+    -fx-border-color: #4CAF50; /* Green border on focus */
+}
+
+/* Button Styling */
+.button {
+    -fx-background-color: #4CAF50; /* Green */
+    -fx-text-fill: white;
+    -fx-padding: 10px 15px;
+    -fx-border-radius: 5px;
+    -fx-font-weight: bold;
+}
+
+.button:hover {
+    -fx-background-color: #45a049; /* Darker green on hover */
+}
+
+.button:pressed {
+    -fx-background-color: #388E3C; /* Even darker green when pressed */
+}
+
+/* HBox and VBox Padding */
+.hbox, .vbox {
+    -fx-padding: 10;
+}
+
+/* Alert Dialog Styling */
+.alert {
+    -fx-background-color: #ffffff;
+}
+
+/* Miscellaneous */
+.label {
+    -fx-text-fill: #333333; /* Dark grey */
+}

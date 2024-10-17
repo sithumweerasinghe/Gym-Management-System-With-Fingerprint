@@ -1,0 +1,10 @@
+<component name="ArtifactManager">
+  <artifact type="javafx" name="GymManagementSystem">
+    <output-path>$PROJECT_DIR$/out/artifacts/GymManagementSystem</output-path>
+    <root id="root">
+      <element id="archive" name="GymManagementSystem.jar">
+        <element id="module-output" name="GymManagementSystem" />
+      </element>
+    </root>
+  </artifact>
+</component>
